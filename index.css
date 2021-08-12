@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    height: 100vh;
+    width: 100wh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 1rem;
+    padding: 10px;
+}
+.child1{
+    background-color: rgb(170, 163, 163);
+}
+.child2{
+    background: rgba(252, 134, 0, 0.849);
+}
+.child3{
+    background: rgba(204, 103, 8, 0.685);
+}
+.child4{
+    background-color: rgb(32, 92, 4);
+}
+.child5{
+    background: rgb(13, 80, 19);
+}
+.child6{
+    background: rgb(27, 226, 226);
+}
